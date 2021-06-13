@@ -1,7 +1,7 @@
 # PicoGym Web Exploitation Writeup
 
 
-Author: [Ankur Kumar](https://github.com/awsoankur) 
+Author: [Samarth Arora](https://github.com/Samadeol) 
 
 Challenge Page: [Web Gauntlet](http://jupiter.challenges.picoctf.org:54319/)
 
