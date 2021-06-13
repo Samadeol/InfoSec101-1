@@ -11,17 +11,11 @@ let try username as `admin';` and an arbritary password and it works.
 in round 2 we cant use `or`,`and`,`like`,`=`,`--` but we already used none of these.
 lets try the same credentials again, and we get it !
 the new filters are `<` and `>`.
-same thing as round 2, well lmao we got in ez.
-for round 3 we cant use `admin` (pain).
-so we try splitting admin as ad+min or putting the username as `ad'+'min';`
-guess it did not work.
-searching on sqlite concatenation we find the `||` operator , so now replace that with our +
-and retrying.
-DONE!
+for round 3 we cant use `admin`.
+searching on sqlite concatenation we find the `||` operator ,
 new filter => `union`,
 retrying the same for round 5.
 we find the flag in the filter file .
-
 
 
 ## Flag

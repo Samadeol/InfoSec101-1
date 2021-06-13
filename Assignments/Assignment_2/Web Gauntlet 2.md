@@ -1,7 +1,7 @@
 # PicoGym Web Exploitation Writeup
 
 
-Author: [Ankur Kumar](https://github.com/awsoankur) 
+Author: [Samarth Arora](https://github.com/Samadeol) 
 
 Challenge Page: [Web Gauntlet 2](http://mercury.picoctf.net:21336/)
 
@@ -9,7 +9,9 @@ Challenge Page: [Web Gauntlet 2](http://mercury.picoctf.net:21336/)
 for this question we cannot use
 `or and true false union like = > < ; -- /* */ admin`
 so we need username as "admin"
-so we will put our username= `ad'||'min`.
+So went ahead and learnt something called sqlite where u could break the word.
+So username= `ad'||'min`.
+Since we had no other choice i went back to basic sqlite commands and used the not to get password to True.
 and password as `aaa' is not 'a`.
 the username should become admin and he password should evalute to True.
 hence giving us the flag in filter.php
